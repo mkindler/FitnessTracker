@@ -1,8 +1,8 @@
-// Require db from models
+// Require DB from Models
 const db = require("../models")
 
 module.exports = (app) => {
-    // Getting a workout
+    // Getting Workouts
     app.get("/api/workouts", (req, res) => {
         db.Workout.find({}, (err, workouts) => {
             if (err) {
@@ -13,7 +13,7 @@ module.exports = (app) => {
         });
     });
 
-    // Creating a new workout
+    // Creating a New Workout
     app.post('/api/workouts', (req, res) => {
         db.Workout.create({}).then(newWorkout => {
             res.json(newWorkout);
@@ -45,7 +45,7 @@ module.exports = (app) => {
 
     });
 
-    // Get range of workouts
+    // Get Workout Range
     app.get("/api/workouts/range", (req, res) => {
         db.Workout.find({})
         .then(workout => {
