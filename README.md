@@ -2,9 +2,7 @@
 Fitness Tracker 🚴🏻‍♀️💪🏽🦵🏽🏃🏻‍♀️🏋🏻‍♂️ <br> An Application to Track All of Your Workouts!
 </h1>
 
-<p align="center">
 ![Badge:](https://img.shields.io/badge/LICENSE-MIT-brightgreen.svg)
-</p>
 
 ## Description
 
