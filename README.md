@@ -13,7 +13,7 @@ The Fitness Tracker is an application that allows users to track and store worko
 [1. Description](#Description)<br>
 [2. Installation](#Installation)<br>
 [3. Usage](#Usage)<br>
-[4. License](License)<br>
+[4. License](#License)<br>
 [5. Contributing](#Contributing)<br>
 [6. Technologies](#Technologies)<br>
 [7. Authors](#Authors)<br>
